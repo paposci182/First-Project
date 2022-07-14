@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .title {
+      background-color: Red;
+      color: black;
+      text-align: center;
+      border: 1px solid black;
+      margin: 10px;
+      padding: 10px;
+      }
+      
+      .login {
+        text-align: center;
+        border: 1px solid black;
+        border-width: 5px;
+		margin:110px;
+        padding: 10px;
+      }
+    </style>
+    
+    <title>Bloody Red</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="title">
+      <h1 class="title">Bloody Red Funeral Homes Employee Login</h1>
+    </div>
+    <div class="login">
+      <form>
+	  <table align="center">
+		<tr>	  
+			<th><h5>Login</h5></th>
+		</tr>
+		<tr>
+			<td><label for="empID">Employee ID:</label></td>
+		</tr>
+		<tr>
+			<td><input type="text" id="empId" name="empId"><br><br></td>
+		</tr>
+		<tr>
+			<td><label for="empPass">Password:</label></td>
+		</tr>
+		<tr>
+			<td><input type="password" id="pwd" name="pwd" minlength="15"><br><br></td>
+		</tr>
+		<tr>
+			<td><input type="submit" value="LOGIN"></td>
+		</tr>
+		<tr>
+			<td><p><a href="forgotpassword.html">Forgot Password</a></p></td>
+		</tr>
+		<tr>
+			<td><p><a href="CreateNew.html">Create Account</a></p></td>
+		</tr>
+	  </table>
+	  </form> 
+    </div>
+  </body>
+</html>
